@@ -3,16 +3,32 @@ const express = require('express')
 const app = express()
 
 app.get('/students',(req,res)=>{
-   res.send(`get all students details ${req.url}`)
+    res.status(200).json({
+        status:'success',
+        message:`get all students details ${req.url}`
+    })
+   
 })
 app.post('/create',(req,res)=>{
-  res.send(`student created successfully ${req.url}`)
+    res.status(200).json({
+        status:'success',
+        message:`student created successfully ${req.url}`
+    })
+ 
 })
 app.put('/update',(req,res)=>{
-  res.send(`student data updated successfully ${req.url}`)
+    res.status(200).json({
+        status:'success',
+        message:`student data updated successfully ${req.url}`
+    })
+
 })
 app.delete('/delete',(req,res)=>{
-    res.send(`students data deleted successfully ${req.url}`)
+    res.status(200).json({
+        status:'success',
+        message:`students data deleted successfully ${req.url}`
+    })
+
 })
 
 app.listen(8081,()=>{

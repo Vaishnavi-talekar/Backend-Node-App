@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Vaishnavi-talekar/Backend-Node-App#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0"
   }
 }
