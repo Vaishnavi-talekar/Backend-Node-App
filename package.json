@@ -1,0 +1,23 @@
+{
+  "name": "backend-node-app",
+  "version": "1.0.0",
+  "description": "my first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaishnavi-talekar/Backend-Node-App.git"
+  },
+  "author": "Vaishnavi Talekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaishnavi-talekar/Backend-Node-App/issues"
+  },
+  "homepage": "https://github.com/Vaishnavi-talekar/Backend-Node-App#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
